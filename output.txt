@@ -1,0 +1,1 @@
+Scanner Output for file "input_code.txt" : 
