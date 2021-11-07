@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1636308861 source:c:\users\mariam\desktop\drive\compilers\project\scanner\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+
