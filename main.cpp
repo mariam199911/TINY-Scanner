@@ -92,7 +92,7 @@ void getToken(string input_code)
 			{
 				if (Reserved_Words[i] == token) isReserved = true;
 			}
-			if (isReserved) cout << "Reserved Word"<<" , "<< token <<endl;
+			if (isReserved) cout << "Reserved Word"<<", "<< token <<endl;
 			else cout << "Identifier"<<", "<<token <<endl;
 			token = "";
 			isReserved = false;
