@@ -64,7 +64,7 @@ void getToken(string input_code)
 				current_state = INCOMMENT;
 			}
 			else if (is_symbol(input_code[i])) {
-				cout <<"Special Symbol"<<" -> "<< input_code[i] << endl;
+				cout <<"Special Symbol"<<", "<< input_code[i] << endl;
 				i++;
 				if (i == input_code.length()) current_state = DONE;
 				else current_state = START;
@@ -77,7 +77,7 @@ void getToken(string input_code)
 				token += input_code[i];
 				i++;
 			}
-			cout <<"number"<<" -> " <<token <<endl;
+			cout <<"number"<<", " <<token <<endl;
 			token = "";
 			if (i == input_code.length()) current_state = DONE;
 			else current_state = START;
@@ -92,8 +92,8 @@ void getToken(string input_code)
 			{
 				if (Reserved_Words[i] == token) isReserved = true;
 			}
-			if (isReserved) cout << "Reserved Word"<<" -> "<< token <<endl;
-			else cout << "Identifier"<<" -> "<<token <<endl;
+			if (isReserved) cout << "Reserved Word"<<" , "<< token <<endl;
+			else cout << "Identifier"<<", "<<token <<endl;
 			token = "";
 			isReserved = false;
 			if (i == input_code.length()) current_state = DONE;
@@ -114,7 +114,7 @@ void getToken(string input_code)
 		case INASSIGN:
 			if (input_code[i] == ':') {
 				i += 2;
-				cout <<"assign"<< " -> "<< ":=" <<endl;
+				cout <<"assign"<< ", "<< ":=" <<endl;
 				current_state = START;
 			}
 			else {
