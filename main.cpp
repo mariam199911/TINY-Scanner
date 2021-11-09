@@ -23,7 +23,7 @@ bool is_digit(char s) {
     }
 
 bool is_symbol(char s) {
-    if(s == '+' || s == '-' || s == '*' || s == '/' || s == '=' || s == '<' || s == '(' || s == ')' || s == ';')
+    if(s == '+' || s == '-' || s == '*' || s == '/' || s == '=' || s == '>' ||s == '<' || s == '(' || s == ')' || s == ';')
         return true;
     else
         return false;
