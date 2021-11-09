@@ -1,16 +1,16 @@
-Reserved Word , read
+Reserved Word, read
 Identifier, x
 Special Symbol, ;
-Reserved Word , if
+Reserved Word, if
 number, 0
 Special Symbol, <
 Identifier, x
-Reserved Word , then
+Reserved Word, then
 Identifier, fact
 assign, :=
 number, 1
 Special Symbol, ;
-Reserved Word , repeat
+Reserved Word, repeat
 Identifier, fact
 assign, :=
 Identifier, fact
@@ -22,11 +22,11 @@ assign, :=
 Identifier, x
 Special Symbol, -
 number, 1
-Reserved Word , until
+Reserved Word, until
 Identifier, x
 Special Symbol, =
 number, 0
 Special Symbol, ;
-Reserved Word , write
+Reserved Word, write
 Identifier, fact
-Reserved Word , end
+Reserved Word, end

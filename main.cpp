@@ -84,7 +84,7 @@ void getToken(string input_code)
 			break;
 
 		case INID:
-			while (is_letter(input_code[i])) {
+			while (is_letter(input_code[i]) && !is_space(input_code[i])) {
 				token += input_code[i];
 				i++;
 			}
@@ -140,6 +140,7 @@ int main() {
 	file.open("input_code.txt");
 	while (!file.eof()) {
 		getline(file, line);
+		line+='\n';
 		code += line;
 	}
 
