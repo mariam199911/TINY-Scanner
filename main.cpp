@@ -135,6 +135,7 @@ void getToken(string input_code)
 int main() {
     cout << "Welcome to Scanner assignment \n ";
 	cout << "A file \"output.txt\" will be generated with the scanner output";
+
 	ifstream file;
 	string line, code;
 	file.open("input_code.txt");
@@ -149,7 +150,6 @@ int main() {
 	freopen("output.txt", "w", stdout);
 	getToken(code);
 	fclose(stdout);
-	system("pause");
 	return 0;
 }
 

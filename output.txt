@@ -1,32 +1,28 @@
 Reserved Word, read
-Identifier, x
+Identifier, xy
+Special Symbol, ;
+Reserved Word, read
+Identifier, ab
 Special Symbol, ;
 Reserved Word, if
-number, 0
-Special Symbol, <
-Identifier, x
-Reserved Word, then
-Identifier, fact
+Identifier, ab
+Special Symbol, >
+Identifier, xy
+Identifier, z
 assign, :=
-number, 1
-Special Symbol, ;
-Reserved Word, repeat
-Identifier, fact
-assign, :=
-Identifier, fact
-Special Symbol, *
-Identifier, x
-Special Symbol, ;
-Identifier, x
-assign, :=
-Identifier, x
+Identifier, ab
 Special Symbol, -
-number, 1
-Reserved Word, until
+Identifier, xy
+Special Symbol, ;
+Reserved Word, else
+Identifier, z
+assign, :=
 Identifier, x
-Special Symbol, =
-number, 0
+Identifier, y
+Special Symbol, -
+Identifier, a
+Identifier, b
 Special Symbol, ;
 Reserved Word, write
-Identifier, fact
-Reserved Word, end
+Identifier, z
+Special Symbol, ;

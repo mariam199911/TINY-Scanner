@@ -1,10 +1,8 @@
-{sample program in TINY language- computes factorial}
-read x;{input an integer}
-if 0<x then {don’t compute if x<=0}
- fact:=1;
- repeat
- fact:=fact*x;
- x:=x-1
- until x=0;
- write fact{output factorial of x} 
-end
+{this is a comment line in the sample program}
+read xy;
+read ab;
+if ab>xy
+ z :=ab-xy;
+else
+ z :=x y-a b ;
+write z;
